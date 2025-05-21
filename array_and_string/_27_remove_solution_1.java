@@ -1,4 +1,4 @@
-public class _88_remove_solution_1
+public class _27_remove_solution_1
 {
    public static int removeElement(int[] a, int val)
    {
