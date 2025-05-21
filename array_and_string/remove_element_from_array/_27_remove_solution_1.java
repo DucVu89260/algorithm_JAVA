@@ -1,3 +1,4 @@
+package remove_element_from_array;
 public class _27_remove_solution_1
 {
    public static int removeElement(int[] a, int val)

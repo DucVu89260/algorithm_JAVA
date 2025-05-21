@@ -1,3 +1,5 @@
+package insert_array;
+
 public class _88_merge_sorted_array {
     public static void merge(int[] n1, int m, int[] n2, int n) {
         

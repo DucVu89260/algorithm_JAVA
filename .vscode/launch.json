@@ -4,7 +4,13 @@
    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
    "version": "0.2.0",
    "configurations": [
-      
+      {
+         "type": "java",
+         "name": "_88_merge_sorted_array",
+         "request": "launch",
+         "mainClass": "insert_array._88_merge_sorted_array",
+         "projectName": "algorithm_JAVA_a7a92b90"
+      },
       {
          "type": "java",
          "name": "Current File",
