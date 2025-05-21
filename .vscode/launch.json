@@ -1,0 +1,36 @@
+{
+   // Use IntelliSense to learn about possible attributes.
+   // Hover to view descriptions of existing attributes.
+   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+   "version": "0.2.0",
+   "configurations": [
+      
+      {
+         "type": "java",
+         "name": "Current File",
+         "request": "launch",
+         "mainClass": "${file}"
+      },
+      {
+         "type": "java",
+         "name": "_1295_find_numbers_with",
+         "request": "launch",
+         "mainClass": "_1295_find_numbers_with",
+         "projectName": "algorithm_JAVA_a7a92b90"
+      },
+      {
+         "type": "java",
+         "name": "_88_merge_sorted_array",
+         "request": "launch",
+         "mainClass": "_88_merge_sorted_array",
+         "projectName": "algorithm_JAVA_a7a92b90"
+      },
+      {
+         "type": "java",
+         "name": "_88_remove_solution_1",
+         "request": "launch",
+         "mainClass": "_88_remove_solution_1",
+         "projectName": "algorithm_JAVA_a7a92b90"
+      }
+   ]
+}
