@@ -48,3 +48,5 @@ Given an array nums of integers, return how many of them contain an even number 
     Explanation: The arrays we are merging are [] and [1].<br>
     The result of the merge is [1].<br>
     Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
+
+### 27_remove_element_from_array
