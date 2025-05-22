@@ -6,6 +6,13 @@
    "configurations": [
       {
          "type": "java",
+         "name": "_88_merge_sorted_array_solution2",
+         "request": "launch",
+         "mainClass": "insert_array._88_merge_sorted_array_solution2",
+         "projectName": "algorithm_JAVA_a7a92b90"
+      },
+      {
+         "type": "java",
          "name": "_88_merge_sorted_array",
          "request": "launch",
          "mainClass": "insert_array._88_merge_sorted_array",
