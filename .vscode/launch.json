@@ -6,6 +6,13 @@
    "configurations": [
       {
          "type": "java",
+         "name": "_1672_richest_customer_wealth",
+         "request": "launch",
+         "mainClass": "two_dim_array._1672_richest_customer_wealth",
+         "projectName": "algorithm_JAVA_9e53c6cc"
+      },
+      {
+         "type": "java",
          "name": "_27_remove_solution_2",
          "request": "launch",
          "mainClass": "remove_element_from_array._27_remove_solution_2",
