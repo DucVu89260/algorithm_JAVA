@@ -1,13 +1,19 @@
 package inspect_array;
 public class _1295_find_numbers_with {
 
+    //interpretation of the above code:
+        // We iterate through each element of the array nums.
+        // For each element, we count the number of digits in that element.
+        // If the number of digits is even, we increment the count variable.
+
     public static int FindNumbers(int[] nums) {
 
         int count=0;
 
         for(int a : nums){
-            //kiem tra so chu so cua a
-            //Neu nhu so chu so la Chan --> Tang bien dem them 1
+            //count the number of digits in a
+            //if the number of digits is even, increment count
+            //else continue to the next element
             int numberOfDigits = countDigit(a);
             if(numberOfDigits % 2 == 0){
                 count++;
@@ -31,6 +37,6 @@ public class _1295_find_numbers_with {
         
         int[] nums = {1,22,3,4444,154789};
 
-        System.out.println(FindNumbers(nums));
+        System.out.println("Total numbers with even number of digits: " + FindNumbers(nums));
     }
 }
