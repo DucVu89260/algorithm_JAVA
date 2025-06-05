@@ -2,6 +2,7 @@ package inspect_array;
 public class _1295_find_numbers_with {
 
     //interpretation of the above code:
+        // We are going to find the number of elements in the array nums that have an even number of digits.
         // We iterate through each element of the array nums.
         // For each element, we count the number of digits in that element.
         // If the number of digits is even, we increment the count variable.

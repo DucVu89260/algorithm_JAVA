@@ -1,0 +1,35 @@
+public class _1768_Merge_Strings_Alternately{
+
+   //interpretation the code below:
+      // Given two strings word1 and word2, merge them by adding letters in alternating order, starting with word1.
+      // If a string is longer than the other, append the additional letters onto the end of the merged string.
+      // Return the merged string.
+
+   public String mergeAlternately(String word1, String word2) {
+      int m1 = word1.length();
+      int m2 = word2.length();
+
+      StringBuilder sb = new StringBuilder();
+      // Use two pointers to iterate through both strings
+      // and append characters alternately.
+
+      int i = 0, j = 0;
+      while (i < m1 && j < m2) {
+         sb.append(word1.charAt(i++));
+         // Append character from word1
+
+         sb.append(word2.charAt(j++));
+         // Append character from word2
+      }
+      while (i < m1) {
+         sb.append(word1.charAt(i++));
+         // Append remaining characters from word1
+      }
+      while (j < m2) {  
+         sb.append(word2.charAt(j++));
+         // Append remaining characters from word2
+      }
+      return sb.toString();
+   }
+   
+}
